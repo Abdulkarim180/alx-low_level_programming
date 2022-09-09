@@ -1,16 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - Prints reversed alphabet.
  *
- * Return: always (success/correct)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char alphabets;
+	int i;
 
-	for (alphabets = 122; alphabets >= 97; alphanbets--)
+	for (i = 122; i > 96; i--)
 	{
-		putchar(alphabets);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
