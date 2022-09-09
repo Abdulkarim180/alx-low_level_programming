@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - Prints numbers from 0 to 9.
  *
- * Return: always (success/correct)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -10,8 +11,8 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%i", i)
+		printf("%d", i);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
