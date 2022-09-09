@@ -34,14 +34,14 @@ break;
 putchar(',');
 putchar(' ');
 }
- i++;
- }
- e++;
- }
- g++;
- }
- h++;
- }
- putchar('\n');
- return (0);
- }
+i++;
+}
+e++;
+}
+g++;
+}
+h++;
+}
+putchar('\n');
+return (0);
+}
