@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints numbers between 00 to 99.
+* main - Prints numbers between 00 to 99.
  *
  * Return: Always 0 (Success)
  */
@@ -23,18 +23,17 @@ while (h < 58)
 				op1 = (h * 10) + g;
 				op2 = (e * 10) + i;
 				if (op1 < op2)
-				{
-					putchar(h);
-					putchar(g);
-					putchar(' ');
-					putchar(e);
-					putchar(i);
-					if (h == 57 && g == 56 && e == 57 && i == 57)
-						break;
-					putchar(',');
-					putchar(' ');
+				{putchar(h);
+				 putchar(g);
+				putchar(' ');
+				putchar(e);
+				putchar(i);
+				if (h == 57 && g == 56 && e == 57 && i == 57)
+				break;
+				putchar(',');
+				putchar(' ');
 				}
-				i++;
+			i++;
 			}
 			e++;
 		}
