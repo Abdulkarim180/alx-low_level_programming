@@ -1,30 +1,37 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - Prints numbers between 00 to 89.
  *
- * codes for printing all possible combinations of d\t digits
- * in ascending order and seperated by a comma followed by a space.
- *
- * Return: 0 success
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int digit1, digit2;
+	int i, e;
 
-	for (digit1 = 0; digit1 < 0; digit1++)
+	i = 48;
+	e = 48;
+
+	while (e < 58)
 	{
-		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
+		i = 48;
+		while (i < 58)
 		{
-			putchar((digit1 % 10) + '0');
-			putchar((digit2 % 10) + '0');
-
-			if (digit1 == 8 && digit2 == 9)
-				continue;
-
-			putchar(',');
-			putchar(' ');
+			if (e != i && e < i)
+			{
+				putchar(e);
+				putchar(i);
+				if (i == 57 && e == 56)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
+			}
+			i++;
 		}
+		e++;
 	}
-		putchar('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }
