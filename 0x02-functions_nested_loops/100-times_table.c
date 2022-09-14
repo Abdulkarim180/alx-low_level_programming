@@ -21,7 +21,7 @@ void print_times_table(int n)
 				p = m * a;
 				if (c == 0 && p < 10)
 				{
-					printf(",   %d", p);
+					printf(",  %d", p);
 				}
 				else if (c == 0 && p < 100)
 				{
@@ -37,7 +37,7 @@ void print_times_table(int n)
 				}
 				else
 				{
-					printf("%d", p);
+					printf("%d", p)
 				}
 				c = 0;
 			}
@@ -47,5 +47,6 @@ void print_times_table(int n)
 	}
 	else
 	{
+
 	}
 }
