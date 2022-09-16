@@ -37,20 +37,3 @@ int largest_number(int a, int b, int c)
     return (largest);
 
 }
-[2:08 am, 16/09/2022] +233 20 855 0500: 0-main.c
-[2:08 am, 16/09/2022] +233 20 855 0500: #include "main.h"
-
-/**
- * main - tests function that prints if integer is positive or negative
- * Return: 0 always success
- */
-int main(void)
-{
-int i;
-
-i = 0;
-
-positive_or_negative(i);
-
-return (0);
-}
